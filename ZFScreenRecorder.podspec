@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "zhfeng" => "hhzhangfeng2008@163.com" }
 
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/zhfeng20108/ZFScreenRecorder.git", :tag => "0.0.1" }
 
