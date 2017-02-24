@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254FAD83FEA6C9F205FA1EB6 /* libPods-ZFScreenRecording.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4630B9BF00CF663D97922A93 /* libPods-ZFScreenRecording.a */; };
+		994CC9261E55BBA900959B94 /* ZFRecordEventWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 994CC9251E55BBA900959B94 /* ZFRecordEventWindow.m */; };
+		99729BD61E4B265F008727CF /* ZFScreenVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 99729BD51E4B265F008727CF /* ZFScreenVideoCamera.m */; };
+		9974AF9B1E56CD470088235A /* zhangsheng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9974AF9A1E56CD470088235A /* zhangsheng.mp3 */; };
+		99D460FC1E49A2E000504B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D460FB1E49A2E000504B49 /* main.m */; };
+		99D460FF1E49A2E000504B49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D460FE1E49A2E000504B49 /* AppDelegate.m */; };
+		99D461021E49A2E000504B49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D461011E49A2E000504B49 /* ViewController.m */; };
+		99D461051E49A2E000504B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D461031E49A2E000504B49 /* Main.storyboard */; };
+		99D461071E49A2E100504B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D461061E49A2E100504B49 /* Assets.xcassets */; };
+		99D4610A1E49A2E100504B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D461081E49A2E100504B49 /* LaunchScreen.storyboard */; };
+		99D461131E49A32F00504B49 /* ZFHiddenStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D461121E49A32F00504B49 /* ZFHiddenStatusBarViewController.m */; };
+		99D461161E49A34E00504B49 /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 99D461141E49A34E00504B49 /* fire.scnp */; };
+		99D461171E49A34E00504B49 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D461151E49A34E00504B49 /* spark.png */; };
+		99D461191E49A36100504B49 /* rain.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 99D461181E49A36100504B49 /* rain.scnp */; };
+		99D4611C1E49A36F00504B49 /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 99D4611A1E49A36F00504B49 /* smoke.scnp */; };
+		99D4611D1E49A36F00504B49 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4611B1E49A36F00504B49 /* smoke.png */; };
+		99D461201E49A37C00504B49 /* stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 99D4611E1E49A37C00504B49 /* stars.scnp */; };
+		99D461211E49A37C00504B49 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4611F1E49A37C00504B49 /* star.png */; };
+		99D461241E49A38800504B49 /* bokeh.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 99D461221E49A38800504B49 /* bokeh.scnp */; };
+		99D461251E49A38800504B49 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D461231E49A38800504B49 /* bokeh.png */; };
+		99D4612B1E49AE1C00504B49 /* ZFScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D4612A1E49AE1C00504B49 /* ZFScreenRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E079B6B81BABECC890A73FF /* Pods-ZFScreenRecording.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFScreenRecording.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFScreenRecording/Pods-ZFScreenRecording.release.xcconfig"; sourceTree = "<group>"; };
+		4630B9BF00CF663D97922A93 /* libPods-ZFScreenRecording.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFScreenRecording.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		994CC9241E55BBA900959B94 /* ZFRecordEventWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFRecordEventWindow.h; sourceTree = "<group>"; };
+		994CC9251E55BBA900959B94 /* ZFRecordEventWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFRecordEventWindow.m; sourceTree = "<group>"; };
+		99729BD41E4B265F008727CF /* ZFScreenVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFScreenVideoCamera.h; sourceTree = "<group>"; };
+		99729BD51E4B265F008727CF /* ZFScreenVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFScreenVideoCamera.m; sourceTree = "<group>"; };
+		9974AF9A1E56CD470088235A /* zhangsheng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhangsheng.mp3; sourceTree = "<group>"; };
+		99D460F71E49A2E000504B49 /* ZFScreenRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFScreenRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D460FB1E49A2E000504B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99D460FD1E49A2E000504B49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99D460FE1E49A2E000504B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99D461001E49A2E000504B49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99D461011E49A2E000504B49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99D461041E49A2E000504B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D461061E49A2E100504B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D461091E49A2E100504B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99D4610B1E49A2E100504B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D461111E49A32F00504B49 /* ZFHiddenStatusBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHiddenStatusBarViewController.h; sourceTree = "<group>"; };
+		99D461121E49A32F00504B49 /* ZFHiddenStatusBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHiddenStatusBarViewController.m; sourceTree = "<group>"; };
+		99D461141E49A34E00504B49 /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
+		99D461151E49A34E00504B49 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		99D461181E49A36100504B49 /* rain.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = rain.scnp; sourceTree = "<group>"; };
+		99D4611A1E49A36F00504B49 /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
+		99D4611B1E49A36F00504B49 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		99D4611E1E49A37C00504B49 /* stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = stars.scnp; sourceTree = "<group>"; };
+		99D4611F1E49A37C00504B49 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		99D461221E49A38800504B49 /* bokeh.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = bokeh.scnp; sourceTree = "<group>"; };
+		99D461231E49A38800504B49 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		99D461291E49AE1C00504B49 /* ZFScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFScreenRecorder.h; sourceTree = "<group>"; };
+		99D4612A1E49AE1C00504B49 /* ZFScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFScreenRecorder.m; sourceTree = "<group>"; };
+		AABA4D653A8F0E7F4E0B9439 /* Pods-ZFScreenRecording.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFScreenRecording.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFScreenRecording/Pods-ZFScreenRecording.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D460F41E49A2E000504B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254FAD83FEA6C9F205FA1EB6 /* libPods-ZFScreenRecording.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1298A37B9F850463471AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4630B9BF00CF663D97922A93 /* libPods-ZFScreenRecording.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99D460EE1E49A2E000504B49 = {
+			isa = PBXGroup;
+			children = (
+				99D460F91E49A2E000504B49 /* ZFScreenRecording */,
+				99D460F81E49A2E000504B49 /* Products */,
+				E63644DB68950B9FFC8AAD27 /* Pods */,
+				4A1298A37B9F850463471AF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99D460F81E49A2E000504B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D460F71E49A2E000504B49 /* ZFScreenRecording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D460F91E49A2E000504B49 /* ZFScreenRecording */ = {
+			isa = PBXGroup;
+			children = (
+				99D460FD1E49A2E000504B49 /* AppDelegate.h */,
+				99D460FE1E49A2E000504B49 /* AppDelegate.m */,
+				99D461001E49A2E000504B49 /* ViewController.h */,
+				99D461011E49A2E000504B49 /* ViewController.m */,
+				99D461291E49AE1C00504B49 /* ZFScreenRecorder.h */,
+				99D4612A1E49AE1C00504B49 /* ZFScreenRecorder.m */,
+				99D461111E49A32F00504B49 /* ZFHiddenStatusBarViewController.h */,
+				99D461121E49A32F00504B49 /* ZFHiddenStatusBarViewController.m */,
+				994CC9241E55BBA900959B94 /* ZFRecordEventWindow.h */,
+				994CC9251E55BBA900959B94 /* ZFRecordEventWindow.m */,
+				99729BD41E4B265F008727CF /* ZFScreenVideoCamera.h */,
+				99729BD51E4B265F008727CF /* ZFScreenVideoCamera.m */,
+				99D461031E49A2E000504B49 /* Main.storyboard */,
+				99D461061E49A2E100504B49 /* Assets.xcassets */,
+				99D461081E49A2E100504B49 /* LaunchScreen.storyboard */,
+				99D4610B1E49A2E100504B49 /* Info.plist */,
+				99D460FA1E49A2E000504B49 /* Supporting Files */,
+				99D461141E49A34E00504B49 /* fire.scnp */,
+				99D461151E49A34E00504B49 /* spark.png */,
+				99D461181E49A36100504B49 /* rain.scnp */,
+				99D4611A1E49A36F00504B49 /* smoke.scnp */,
+				99D4611B1E49A36F00504B49 /* smoke.png */,
+				99D4611E1E49A37C00504B49 /* stars.scnp */,
+				99D4611F1E49A37C00504B49 /* star.png */,
+				99D461221E49A38800504B49 /* bokeh.scnp */,
+				99D461231E49A38800504B49 /* bokeh.png */,
+			);
+			path = ZFScreenRecording;
+			sourceTree = "<group>";
+		};
+		99D460FA1E49A2E000504B49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9974AF9A1E56CD470088235A /* zhangsheng.mp3 */,
+				99D460FB1E49A2E000504B49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63644DB68950B9FFC8AAD27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AABA4D653A8F0E7F4E0B9439 /* Pods-ZFScreenRecording.debug.xcconfig */,
+				0E079B6B81BABECC890A73FF /* Pods-ZFScreenRecording.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D460F61E49A2E000504B49 /* ZFScreenRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D4610E1E49A2E100504B49 /* Build configuration list for PBXNativeTarget "ZFScreenRecording" */;
+			buildPhases = (
+				BD18F503393845E6BE09DA51 /* [CP] Check Pods Manifest.lock */,
+				99D460F31E49A2E000504B49 /* Sources */,
+				99D460F41E49A2E000504B49 /* Frameworks */,
+				99D460F51E49A2E000504B49 /* Resources */,
+				6A70D5F152F68DDEF90BB50C /* [CP] Embed Pods Frameworks */,
+				CDC44DADA7F118CEC174E8CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFScreenRecording;
+			productName = ZFScreenRecording;
+			productReference = 99D460F71E49A2E000504B49 /* ZFScreenRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D460EF1E49A2E000504B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = haha;
+				TargetAttributes = {
+					99D460F61E49A2E000504B49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99KC83QESA;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 99D460F21E49A2E000504B49 /* Build configuration list for PBXProject "ZFScreenRecording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D460EE1E49A2E000504B49;
+			productRefGroup = 99D460F81E49A2E000504B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D460F61E49A2E000504B49 /* ZFScreenRecording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D460F51E49A2E000504B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D461171E49A34E00504B49 /* spark.png in Resources */,
+				99D461211E49A37C00504B49 /* star.png in Resources */,
+				99D461241E49A38800504B49 /* bokeh.scnp in Resources */,
+				99D461191E49A36100504B49 /* rain.scnp in Resources */,
+				99D4610A1E49A2E100504B49 /* LaunchScreen.storyboard in Resources */,
+				99D461251E49A38800504B49 /* bokeh.png in Resources */,
+				99D4611D1E49A36F00504B49 /* smoke.png in Resources */,
+				99D461161E49A34E00504B49 /* fire.scnp in Resources */,
+				99D461071E49A2E100504B49 /* Assets.xcassets in Resources */,
+				99D461051E49A2E000504B49 /* Main.storyboard in Resources */,
+				99D461201E49A37C00504B49 /* stars.scnp in Resources */,
+				99D4611C1E49A36F00504B49 /* smoke.scnp in Resources */,
+				9974AF9B1E56CD470088235A /* zhangsheng.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A70D5F152F68DDEF90BB50C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFScreenRecording/Pods-ZFScreenRecording-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD18F503393845E6BE09DA51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC44DADA7F118CEC174E8CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFScreenRecording/Pods-ZFScreenRecording-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D460F31E49A2E000504B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99729BD61E4B265F008727CF /* ZFScreenVideoCamera.m in Sources */,
+				99D461021E49A2E000504B49 /* ViewController.m in Sources */,
+				99D4612B1E49AE1C00504B49 /* ZFScreenRecorder.m in Sources */,
+				99D460FF1E49A2E000504B49 /* AppDelegate.m in Sources */,
+				99D461131E49A32F00504B49 /* ZFHiddenStatusBarViewController.m in Sources */,
+				99D460FC1E49A2E000504B49 /* main.m in Sources */,
+				994CC9261E55BBA900959B94 /* ZFRecordEventWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99D461031E49A2E000504B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D461041E49A2E000504B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99D461081E49A2E100504B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D461091E49A2E100504B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D4610C1E49A2E100504B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99D4610D1E49A2E100504B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D4610F1E49A2E100504B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABA4D653A8F0E7F4E0B9439 /* Pods-ZFScreenRecording.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99KC83QESA;
+				INFOPLIST_FILE = ZFScreenRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.ZFScreenRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "84916e27-8cb6-4048-a00f-bee20717e6f8";
+				PROVISIONING_PROFILE_SPECIFIER = inhouseforalldev;
+			};
+			name = Debug;
+		};
+		99D461101E49A2E100504B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E079B6B81BABECC890A73FF /* Pods-ZFScreenRecording.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99KC83QESA;
+				INFOPLIST_FILE = ZFScreenRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hehe.ZFScreenRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "84916e27-8cb6-4048-a00f-bee20717e6f8";
+				PROVISIONING_PROFILE_SPECIFIER = inhouseforalldev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D460F21E49A2E000504B49 /* Build configuration list for PBXProject "ZFScreenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D4610C1E49A2E100504B49 /* Debug */,
+				99D4610D1E49A2E100504B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D4610E1E49A2E100504B49 /* Build configuration list for PBXNativeTarget "ZFScreenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D4610F1E49A2E100504B49 /* Debug */,
+				99D461101E49A2E100504B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D460EF1E49A2E000504B49 /* Project object */;
+}

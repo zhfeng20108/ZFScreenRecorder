@@ -1,0 +1,5 @@
+target 'ZFScreenRecording' do
+
+pod 'GPUImage'
+
+end
