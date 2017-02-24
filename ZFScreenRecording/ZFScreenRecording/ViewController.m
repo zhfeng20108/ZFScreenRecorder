@@ -7,16 +7,14 @@
 //
 
 #import "ViewController.h"
-#import "ZFScreenRecorder.h"
+#import "ScreenRecorderDemo.h"
 #import "AppDelegate.h"
 #import <SceneKit/SceneKit.h>
-#import <ReplayKit/ReplayKit.h>
-#import "ZFHiddenStatusBarViewController.h"
 #import <MediaPlayer/MediaPlayer.h>
-#import "ZFRecordEventWindow.h"
-@interface ViewController ()<RPPreviewViewControllerDelegate,RPScreenRecorderDelegate>
+#import "ZFScreenRecorder.h"
+@interface ViewController ()
 
-@property (nonatomic, strong) ZFScreenRecorder *screenRecorder;
+@property (nonatomic, strong) ScreenRecorderDemo *screenRecorder;
 ///粒子系统对象
 @property (nonatomic, strong) SCNView *scnView;
 @property (nonatomic, strong) SCNNode *node;
@@ -167,13 +165,13 @@ static void completionCallback(SystemSoundID mySSID)
 
 - (void)recordButtonTouched:(UIButton *)button {
     if (!self.screenRecorder) {
-        self.screenRecorder = [ZFScreenRecorder recorder];
+        self.screenRecorder = [ScreenRecorderDemo recorder];
     }
     if (!button.selected) {
         NSString *imageDir = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"Documents"]];
         [[NSFileManager defaultManager] removeItemAtPath:imageDir error:nil];
 //        [[ZFScreenRecorder sharedRecorder] startRecordingWithMicrophoneEnabled:YES handler:^(NSError * _Nullable error) {
-         [self.screenRecorder startRecordingView:nil inRect:CGRectZero microphoneEnabled:NO handler:^(NSError * _Nullable error) {
+         [self.screenRecorder startRecordingView:nil inRect:CGRectZero microphoneEnabled:YES handler:^(NSError * _Nullable error) {
             if (!error) {
                 button.selected = YES;
             } else {

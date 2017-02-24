@@ -6,19 +6,19 @@
 //  Copyright © 2017年 haha. All rights reserved.
 //
 
+#import "ScreenRecorderDemo.h"
 #import "ZFScreenRecorder.h"
-#import "ZFScreenVideoCamera.h"
 
-@interface ZFScreenRecorder ()
+@interface ScreenRecorderDemo ()
 @property (nonatomic , strong) GPUImageMovieWriter *movieWriter;
 @property (nonatomic , strong) ZFScreenVideoCamera *videoCamera;
 @property(nonatomic, copy) void(^errorCallback)(NSError * __nullable error);
 @end
-@implementation ZFScreenRecorder
+@implementation ScreenRecorderDemo
 
-+ (ZFScreenRecorder * __nullable)recorder {
-    ZFScreenRecorder *sharedInstance;
-    sharedInstance = [[ZFScreenRecorder alloc] init];
++ (ScreenRecorderDemo * __nullable)recorder {
+    ScreenRecorderDemo *sharedInstance;
+    sharedInstance = [[ScreenRecorderDemo alloc] init];
     return sharedInstance;
 }
 
