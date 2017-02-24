@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZFScreenRecorder"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "性能很好的录屏，支持GPUImage的所有操作。"
 
   s.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/zhfeng20108/ZFScreenRecorder.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/zhfeng20108/ZFScreenRecorder.git", :tag => "0.0.2" }
 
   s.source_files  = "ZFScreenRecorder/*.{h,m}"
 
