@@ -171,7 +171,7 @@ static void completionCallback(SystemSoundID mySSID)
         NSString *imageDir = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"Documents"]];
         [[NSFileManager defaultManager] removeItemAtPath:imageDir error:nil];
 //        [[ZFScreenRecorder sharedRecorder] startRecordingWithMicrophoneEnabled:YES handler:^(NSError * _Nullable error) {
-         [self.screenRecorder startRecordingView:nil inRect:CGRectZero microphoneEnabled:YES handler:^(NSError * _Nullable error) {
+         [self.screenRecorder startRecordingView:self.view inRect:self.view.bounds microphoneEnabled:YES handler:^(NSError * _Nullable error) {
             if (!error) {
                 button.selected = YES;
             } else {
@@ -192,9 +192,10 @@ static void completionCallback(SystemSoundID mySSID)
             }
         }];
     } else {
-//        __weak typeof(self) wself = self;
+        __weak typeof(self) wself = self;
         button.selected = NO;
         [self.screenRecorder stopRecordingWithHandler:^(NSError * _Nullable error) {
+            [wself playTestImages:nil];
 //            NSMutableArray *muArr = [NSMutableArray new];
 //            for (NSUInteger i=1; i<NSUIntegerMax; ++i) {
 //                NSString *pathToPng = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"Documents/%zd.png",++i]];
@@ -224,11 +225,11 @@ static void completionCallback(SystemSoundID mySSID)
 }
 
 - (void)playTestImages:(NSArray *)imagesArr {
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-100, self.view.bounds.size.height-(self.view.bounds.size.height*100/self.view.bounds.size.width), 100, self.view.bounds.size.height*100/self.view.bounds.size.width)];
-    [self.view addSubview:imageView];
-    imageView.animationImages = imagesArr;
-    imageView.animationDuration = 5;
-    [imageView startAnimating];
+//    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-100, self.view.bounds.size.height-(self.view.bounds.size.height*100/self.view.bounds.size.width), 100, self.view.bounds.size.height*100/self.view.bounds.size.width)];
+//    [self.view addSubview:imageView];
+//    imageView.animationImages = imagesArr;
+//    imageView.animationDuration = 5;
+//    [imageView startAnimating];
     
     NSString *pathToMovie = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Movie.mp4"];
     NSURL *url=[NSURL fileURLWithPath:pathToMovie];

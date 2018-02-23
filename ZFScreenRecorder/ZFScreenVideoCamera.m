@@ -172,7 +172,11 @@ void ZFImageCreateResizedSampleBuffer(CGImageRef imageRef,CMSampleBufferRef *sam
         [NSThread currentThread].name = @"截屏线程";
         [NSThread currentThread].threadPriority = 1.0;
         wself.dlink = [CADisplayLink displayLinkWithTarget:wself selector:@selector(timerAction)];
-        wself.dlink.frameInterval = 2;
+        if ([[[UIDevice currentDevice] systemVersion] floatValue] < 9.0) {
+            wself.dlink.frameInterval = 2;
+        } else {
+            wself.dlink.preferredFramesPerSecond = 30;
+        }
         //将定时器添加到runloop中
         NSRunLoop *runloop = [NSRunLoop currentRunLoop];
         [wself.dlink addToRunLoop:runloop forMode:NSDefaultRunLoopMode];
