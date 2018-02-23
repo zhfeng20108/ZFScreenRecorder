@@ -172,7 +172,7 @@ void ZFImageCreateResizedSampleBuffer(CGImageRef imageRef,CMSampleBufferRef *sam
         [NSThread currentThread].name = @"截屏线程";
         [NSThread currentThread].threadPriority = 1.0;
         wself.dlink = [CADisplayLink displayLinkWithTarget:wself selector:@selector(timerAction)];
-        if ([[[UIDevice currentDevice] systemVersion] floatValue] < 9.0) {
+        if ([[[UIDevice currentDevice] systemVersion] floatValue] < 10.0) {
             wself.dlink.frameInterval = 2;
         } else {
             wself.dlink.preferredFramesPerSecond = 30;
